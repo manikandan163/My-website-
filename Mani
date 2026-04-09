@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manikandan CSC</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f172a, #1e3a8a);
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.5);
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.3);
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+    }
+
+    .btn {
+      background: #38bdf8;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.6);
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.5);
+    }
+
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  💻 Manikandan CSC
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Learn Computer Skills 🚀</h1>
+  <p>Join our CSC and build your future</p>
+  <a class="btn" href="#contact">Join Now</a>
+</section>
+
+<section id="courses" class="courses">
+
+  <div class="card">
+    <h3>Basic Computer</h3>
+    <p>Learn computer basics easily</p>
+  </div>
+
+  <div class="card">
+    <h3>MS Office</h3>
+    <p>Word, Excel, PowerPoint</p>
+  </div>
+
+  <div class="card">
+    <h3>Web Design</h3>
+    <p>Create websites like this</p>
+  </div>
+
+</section>
+
+<section id="contact" style="text-align:center; padding:20px;">
+  <h2>Contact Us</h2>
+
+  <input type="text" placeholder="Your Name"><br>
+  <input type="email" placeholder="Your Email"><br>
+  <textarea placeholder="Message"></textarea><br>
+
+  <button class="btn">Send</button>
+
+  <p>📍 Your Location</p>
+  <p>📞 9876543210</p>
+</section>
+<img src="photo.jpg" style="width:300px; border-radius:10px;">
+<footer>
+  © 2026 Manikandan CSC | All Rights Reserved
+</footer>
+
+</body>
+</html>
